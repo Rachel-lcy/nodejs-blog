@@ -8,8 +8,10 @@
 - [express.Router]
   (https://expressjs.com/en/5x/api.html#express.router)
   (https://expressjs.com/en/5x/api.html#router)
+- [ EJS usage](https://ejs.co/#docs)
+- [aria-expandend] (https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-expanded)
 
-## Extentions
+## Extensions
 
 - [EJS Language Support]
 - [EJS Snippets]
