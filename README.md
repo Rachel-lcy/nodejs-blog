@@ -18,7 +18,7 @@ This is a Rachel's simple Blog, where I can share my thoughts in this blog about
 
 ## Resources
 
-- [NodeJs Express EJS Layouts and Partials] (https://raddy.dev/blog/nodejs-express-layouts-and-partials/)
+- [NodeJs Express EJS Layouts and Partials](https://raddy.dev/blog/nodejs-express-layouts-and-partials/)
 - [express.Router]
   (https://expressjs.com/en/5x/api.html#express.router)
   (https://expressjs.com/en/5x/api.html#router)
@@ -26,8 +26,11 @@ This is a Rachel's simple Blog, where I can share my thoughts in this blog about
 - [aria-expandend] (https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-expanded)
 - [mongoose Aggregate()](https://mongoosejs.com/docs/5.x/docs/api/aggregate.html#aggregate_Aggregate)
 - [JavaScript parseInt()](https://www.w3schools.com/jsref/jsref_parseint.asp)
+- [cookie parser](https://www.npmjs.com/package/cookie-parser)
+- [connect-mongo](https://www.npmjs.com/package/connect-mongo)
 
 ## VScode Extensions
 
 - [EJS Language Support]
 - [EJS Snippets]
+- [Postman] for user testing (MongoDB collection)
