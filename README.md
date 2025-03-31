@@ -16,6 +16,8 @@ This is a Rachel's simple Blog, where I can share my thoughts in this blog about
 - MongoDB Database : [Mongoose](https://mongoosejs.com/docs/guide.html)
 - Node.js : [Nodemon](https://nodemon.io/)
 
+## Website Structure
+
 ## Resources
 
 - [NodeJs Express EJS Layouts and Partials](https://raddy.dev/blog/nodejs-express-layouts-and-partials/)
@@ -28,9 +30,16 @@ This is a Rachel's simple Blog, where I can share my thoughts in this blog about
 - [JavaScript parseInt()](https://www.w3schools.com/jsref/jsref_parseint.asp)
 - [cookie parser](https://www.npmjs.com/package/cookie-parser)
 - [connect-mongo](https://www.npmjs.com/package/connect-mongo)
+- [method-override](https://expressjs.com/en/resources/middleware/method-override.html)
 
 ## VScode Extensions
 
 - [EJS Language Support]
 - [EJS Snippets]
 - [Postman] for user testing (MongoDB collection)
+
+## About Admin Page
+
+- [Dashboard]
+
+`` The authMiddleware to check Wehther or not the user has already logged in!
