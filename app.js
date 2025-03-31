@@ -26,10 +26,16 @@
     resave: false,
     saveUninitialized: true,
     store: MongoStore.create({
-      mongoUrl: process.env.MONGODB_URL
+      mongoUrl: process.env.MONGODB_URL,
+      crypto: {
+        secret: "keyboard cat"
+      }
     }),
-    //cookie: { maxAge: new Date ( Date.now() + (3600000) ) }
-  }))
+    cookie: {
+      maxAge: 1000 * 60 * 60
+    }
+  }));
+  
 
   app.use(express.static('public'));
 
