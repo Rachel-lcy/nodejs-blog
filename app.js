@@ -22,13 +22,13 @@
   app.use(methodOverride('_method'))
 
   app.use(session({
-    secret: "keyboard cat",
+    secret: process.env.SESSION_SECRET,
     resave: false,
     saveUninitialized: true,
     store: MongoStore.create({
       mongoUrl: process.env.MONGODB_URL,
       crypto: {
-        secret: "keyboard cat"
+        secret: process.env.SESSION_SECRET
       }
     }),
     cookie: {

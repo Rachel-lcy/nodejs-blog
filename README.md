@@ -23,6 +23,18 @@ This is a Rachel's simple Blog, where I can share my thoughts in this blog about
 - MongoDB Database : [Mongoose](https://mongoosejs.com/docs/index.html)
 - Node.js : [Nodemon](https://nodemon.io/)
 
+## Development & Environment Variables Configuration
+
+- Install Dependencies
+  `npm install`
+- Create .env file in the root directory of the project
+  `MONGODB_URL=your_mongodb_connection_string`
+  `JWT_SECRET=your_jwt_secret_key`
+  `SESSION_SECRET=your_session_secret_key`
+- Start the local development server
+  `npm run dev`
+  `nodemon app`
+
 ## Website Structure
 
 - Home Page
@@ -56,6 +68,6 @@ This is a Rachel's simple Blog, where I can share my thoughts in this blog about
 
 - [Dashboard]
 
-`` The authMiddleware to check Wehther or not the user has already logged in!
+- The authMiddleware to check Wehther or not the user has already logged in!
 
-`` The administration can edit, update, delete posts!
+- The administration can edit, update, delete posts!
