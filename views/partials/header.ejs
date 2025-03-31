@@ -2,9 +2,9 @@
   <a href="/" class="header__logo">NodeJs</a>
   <nav class="header__nav">
     <ul>
-      <li><a href="/" class=""></a>Home</li>
-      <li><a href="/about" class=""></a>About</li>
-      <li><a href="/contact" class=""></a>Contact</li>
+      <li><a href="/" class="<%= isActiveRoute('/', currentRoute) %>"></a>Home</li>
+      <li><a href="/about" class="<%= isActiveRoute('/about', currentRoute) %>"></a>About</li>
+      <li><a href="/contact" class="<%= isActiveRoute('/contact', currentRoute) %>"></a>Contact</li>
     </ul>
   </nav>
 
