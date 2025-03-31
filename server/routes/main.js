@@ -153,12 +153,16 @@ router.get('', async(req, res) => {
   }
  })
 
+/**
+ * GET /
+ * About
+*/
 
- router.get('/about', (req, res) => {
-  res.render('about',{
+router.get('/about', (req, res) => {
+  res.render('about', {
     currentRoute: '/about'
   });
- })
+});
 
 
  module.exports = router;
