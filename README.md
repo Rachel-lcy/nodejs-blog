@@ -28,12 +28,12 @@ This is a Rachel's simple Blog, where I can share my thoughts in this blog about
 - Install Dependencies
   `npm install`
 - Create .env file in the root directory of the project
-  `MONGODB_URL=your_mongodb_connection_string`
-  `JWT_SECRET=your_jwt_secret_key`
-  `SESSION_SECRET=your_session_secret_key`
-- Start the local development server
-  `npm run dev`
-  `nodemon app`
+  - `MONGODB_URL=your_mongodb_connection_string`
+  - `JWT_SECRET=your_jwt_secret_key`
+  - `SESSION_SECRET=your_session_secret_key`
+- Start the local development server -`npm run dev`
+  or
+  - `nodemon app`
 
 ## Website Structure
 
